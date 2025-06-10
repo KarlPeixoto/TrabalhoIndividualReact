@@ -1,0 +1,29 @@
+.containerEscuro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    position: relative;
+
+}
+
+.containerClaro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: aliceblue;
+    background-image: url("../../assets/wERhcmi.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}

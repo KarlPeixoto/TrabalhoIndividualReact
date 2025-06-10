@@ -1,0 +1,61 @@
+.formArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin-top: 0;
+    margin-left: 750px;
+}
+
+.input {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.botaoQ3{
+    background-color: rgb(28, 24, 66);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 30%;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    
+        
+}
+
+.botaoQ3:hover{
+    cursor: pointer;
+    border: 2px solid #fff;
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.lista li {
+    background: #eee;
+    margin-bottom: 6px;
+    padding: 8px;
+    border-radius: 4px;
+    color: #222;
+}

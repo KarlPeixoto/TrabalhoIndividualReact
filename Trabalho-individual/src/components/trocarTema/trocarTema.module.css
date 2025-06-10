@@ -1,0 +1,43 @@
+.botaoQ1Claro {
+    background-color: rgb(29, 32, 238);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 80px;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.botaoQ1Claro:hover{
+    cursor: pointer;
+    border: 2px solid #000000;
+    transform: scale(1.08);
+    transition: 0.2s;
+}
+
+.botaoQ1Escuro {
+    background-color: rgb(28, 24, 66);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 80px;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.botaoQ1Escuro:hover{
+    cursor: pointer;
+    border: 2px solid #fff;
+    transform: scale(1.08);
+    transition: 0.2s;
+}
