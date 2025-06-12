@@ -5,13 +5,13 @@ import { Questão02 } from "../Pages/questao2/questao2";
 import { Questão03 } from "../Pages/questao3/questao3";
 
 
-export function Rotas(){
-    return(
+export function Rotas() {
+    return (
         <Routes>
-            <Route path="/" element={<HomePage/>}/>
-            <Route path="/questao1" element={<Questão01/>}/>
-            <Route path="/questao2" element={<Questão02/>}/>
-            <Route path="/questao3" element={<Questão03/>}/>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/questao1" element={<Questão01 />} />
+            <Route path="/questao2" element={<Questão02 />} />
+            <Route path="/questao3" element={<Questão03 />} />
         </Routes>
     )
 }
